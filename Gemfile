@@ -23,7 +23,6 @@ gem 'material-sass', '4.1.1'
 gem 'material_icons'
 gem 'devise', '~> 4.7.1'
 gem 'kaminari'
-gem 'dotenv-rails'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
