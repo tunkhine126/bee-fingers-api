@@ -25,6 +25,7 @@ gem 'devise', '~> 4.7.1'
 gem 'kaminari'
 gem 'graphql'
 gem 'graphiql-rails'
+gem 'simplecov', require: false, group: :test
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -44,12 +45,12 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'factory_bot_rails'
 end
 
 group :test do
   gem 'rspec-rails', '~> 4.0.0.beta2'
   gem 'guard-rspec', require: false
-  gem 'factory_bot_rails'
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
