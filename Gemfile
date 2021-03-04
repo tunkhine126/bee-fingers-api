@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.6'
+ruby '2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3'
@@ -23,6 +23,8 @@ gem 'material-sass', '4.1.1'
 gem 'material_icons'
 gem 'devise', '~> 4.7.1'
 gem 'kaminari'
+gem 'graphql'
+gem 'graphiql-rails'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
